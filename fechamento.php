@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root"; // Nome de usuário padrão do XAMPP
 $password = ""; // Senha padrão do XAMPP (vazio por padrão)
-$database = "lavajato"; // Nome do seu banco de dados no MySQL
+$database = "clientes"; // Nome do seu banco de dados no MySQL
 
 $conn = new mysqli($servername, $username, $password, $database);
 
@@ -29,8 +29,8 @@ if ($result->num_rows > 0) {
 
 // Calcula a comissão dos funcionários (exemplo)
 $comissaoFuncionarios = array(
-    "Roberto" => $valorBruto * 0.1,
-    "Jakson" => $valorBruto * 0.1,
+    "Funcionario 1" => $valorBruto * 0.1,
+    "Funcionario 2" => $valorBruto * 0.1,
     
 );
 
